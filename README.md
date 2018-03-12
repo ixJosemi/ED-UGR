@@ -9,5 +9,6 @@ Prácticas de la asignatura Estructura de Datos de la Universidad de Granada.
 3.- Sopa de Letras con STL.
 \
 4.- Sopa de Letras con STL y árboles.
-
-** Made by Jose Miguel Hernandez García y David Redondo Correa **
+\
+\
+Made by Jose Miguel Hernandez García y David Redondo Correa
