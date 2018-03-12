@@ -1,0 +1,13 @@
+COLORES en INGLES
+-3	-4	hd	ORANGE
+5	5	vu	YELLOW
+-3	0	vd	GRAY
+10	5	hi	PURPURE
+1	2	vd	BROWN
+8	8	dd	CYAN
+1	2	di	BEIGE
+11	8	vu	BLACK
+10	0	vu	RED
+10	5	di	PINK
+3	11	vd	GREEN
+4	8	hi	BLUE

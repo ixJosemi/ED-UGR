@@ -1,0 +1,4 @@
+ANIMALES
+4	4	hd	TORTUGA
+0	0	vd	VACA
+2	5	hd	PALOMA

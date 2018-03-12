@@ -1,0 +1,12 @@
+ANIMALES
+7	7	hd	TORTUGA
+0	0	vd	VACA
+10	5	hd	PALOMA
+10	5	vu	PERRO
+3	5	hi	GATO
+8	8	hd	CONEJO
+8	8	vd	CABALLO
+10	8	vd	RATON
+10	5	vd	PATO
+-1	10	dd      CANGURO
+-1	10	di      CARACOL

@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>SopaLetras: Fichero Fuente include/Sopa_Letras.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">SopaLetras
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('Sopa__Letras_8h_source.html','');});
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<div class="title">Sopa_Letras.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifndef _SOPA_LETRAS</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#define _SOPA_LETRAS</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Matriz__Dispersa_8h.html">Matriz_Dispersa.h</a>&quot;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classSopa__Letras.html">   26</a></span>&#160;<span class="keyword">class </span><a class="code" href="classSopa__Letras.html">Sopa_Letras</a>{</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classSopa__Letras.html#af32f77bfc3646c1a06efaf057b1b4a27">   45</a></span>&#160;  <a class="code" href="classMatriz__Dispersa.html">Matriz_Dispersa</a> <a class="code" href="classSopa__Letras.html#af32f77bfc3646c1a06efaf057b1b4a27">sp</a>; </div><div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classSopa__Letras.html#a6d8e0270d05bd44650e19cbbb2cbf78b">   46</a></span>&#160;  <a class="code" href="classVD.html">VD &lt;string&gt;</a> <a class="code" href="classSopa__Letras.html#a6d8e0270d05bd44650e19cbbb2cbf78b">encontradas</a>; </div><div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="classSopa__Letras.html#a08f35d5182f3f77a98b1a9bbbde02d00">   47</a></span>&#160;  <a class="code" href="classVD.html">VD &lt;string&gt;</a> <a class="code" href="classSopa__Letras.html#a08f35d5182f3f77a98b1a9bbbde02d00">ocultas</a>; </div><div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classSopa__Letras.html#a0953e6321f049966337401438c304eeb">   48</a></span>&#160;  <span class="keywordtype">string</span> <a class="code" href="classSopa__Letras.html#a0953e6321f049966337401438c304eeb">direccion</a>; </div><div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classSopa__Letras.html#aa0c3936858d8134909056352eb910f8b">   49</a></span>&#160;  <span class="keywordtype">string</span> <a class="code" href="classSopa__Letras.html#aa0c3936858d8134909056352eb910f8b">titulo</a>; </div><div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classSopa__Letras.html#a10161c80a9c087c8d9ee556dd9e402e2">   50</a></span>&#160;  <a class="code" href="classMatriz__Dispersa.html">Matriz_Dispersa</a> <a class="code" href="classSopa__Letras.html#a10161c80a9c087c8d9ee556dd9e402e2">acertadas</a>; </div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <a class="code" href="classSopa__Letras.html">Sopa_Letras</a>();</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="keywordtype">bool</span> Comprobar_Palabra(<span class="keywordtype">string</span> p, <span class="keywordtype">int</span> f, <span class="keywordtype">int</span> c, <span class="keywordtype">string</span> direccion);</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <span class="keywordtype">bool</span> palabranodescubierta(<span class="keywordtype">string</span> p);</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <span class="keywordtype">bool</span> esposiblecolocar(<span class="keywordtype">string</span> p, <span class="keywordtype">int</span> f, <span class="keywordtype">int</span> c, <span class="keywordtype">string</span> direccion);</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  <span class="keywordtype">int</span> nodescubiertas() <span class="keyword">const</span>;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  <span class="keywordtype">int</span> descubiertas() <span class="keyword">const</span>;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  <span class="keywordtype">void</span> colocarpalabra(<span class="keywordtype">string</span> p, <span class="keywordtype">int</span> f, <span class="keywordtype">int</span> c, <span class="keywordtype">string</span> direccion);</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  <span class="keywordtype">void</span> Poner_Acertada(<span class="keywordtype">string</span> p, <span class="keywordtype">int</span> f, <span class="keywordtype">int</span> c, <span class="keywordtype">string</span> direccion);</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  <span class="keyword">friend</span> ostream &amp; bold_on(ostream &amp; fo);</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  <span class="keyword">friend</span> ostream &amp; bold_off(ostream &amp; fo);</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;  <span class="keyword">friend</span> ostream &amp; operator&lt;&lt;(ostream &amp; fo, <span class="keyword">const</span> <a class="code" href="classSopa__Letras.html">Sopa_Letras</a> &amp; s);</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  <span class="keyword">friend</span> istream &amp; operator&gt;&gt;(istream &amp; fi, <a class="code" href="classSopa__Letras.html">Sopa_Letras</a> &amp; s);</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;};</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classSopa__Letras_html"><div class="ttname"><a href="classSopa__Letras.html">Sopa_Letras</a></div><div class="ttdoc">Modulo Sopa de Letras. </div><div class="ttdef"><b>Definition:</b> <a href="Sopa__Letras_8h_source.html#l00026">Sopa_Letras.h:26</a></div></div>
+<div class="ttc" id="classSopa__Letras_html_a6d8e0270d05bd44650e19cbbb2cbf78b"><div class="ttname"><a href="classSopa__Letras.html#a6d8e0270d05bd44650e19cbbb2cbf78b">Sopa_Letras::encontradas</a></div><div class="ttdeci">VD&lt; string &gt; encontradas</div><div class="ttdef"><b>Definition:</b> <a href="Sopa__Letras_8h_source.html#l00046">Sopa_Letras.h:46</a></div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="classSopa__Letras_html_a0953e6321f049966337401438c304eeb"><div class="ttname"><a href="classSopa__Letras.html#a0953e6321f049966337401438c304eeb">Sopa_Letras::direccion</a></div><div class="ttdeci">string direccion</div><div class="ttdef"><b>Definition:</b> <a href="Sopa__Letras_8h_source.html#l00048">Sopa_Letras.h:48</a></div></div>
+<div class="ttc" id="classVD_html"><div class="ttname"><a href="classVD.html">VD&lt; string &gt;</a></div></div>
+<div class="ttc" id="classSopa__Letras_html_aa0c3936858d8134909056352eb910f8b"><div class="ttname"><a href="classSopa__Letras.html#aa0c3936858d8134909056352eb910f8b">Sopa_Letras::titulo</a></div><div class="ttdeci">string titulo</div><div class="ttdef"><b>Definition:</b> <a href="Sopa__Letras_8h_source.html#l00049">Sopa_Letras.h:49</a></div></div>
+<div class="ttc" id="classSopa__Letras_html_af32f77bfc3646c1a06efaf057b1b4a27"><div class="ttname"><a href="classSopa__Letras.html#af32f77bfc3646c1a06efaf057b1b4a27">Sopa_Letras::sp</a></div><div class="ttdeci">Matriz_Dispersa sp</div><div class="ttdef"><b>Definition:</b> <a href="Sopa__Letras_8h_source.html#l00045">Sopa_Letras.h:45</a></div></div>
+<div class="ttc" id="classMatriz__Dispersa_html"><div class="ttname"><a href="classMatriz__Dispersa.html">Matriz_Dispersa</a></div><div class="ttdoc">T.D.A. Matriz dispersa. </div><div class="ttdef"><b>Definition:</b> <a href="Matriz__Dispersa_8h_source.html#l00041">Matriz_Dispersa.h:41</a></div></div>
+<div class="ttc" id="classSopa__Letras_html_a08f35d5182f3f77a98b1a9bbbde02d00"><div class="ttname"><a href="classSopa__Letras.html#a08f35d5182f3f77a98b1a9bbbde02d00">Sopa_Letras::ocultas</a></div><div class="ttdeci">VD&lt; string &gt; ocultas</div><div class="ttdef"><b>Definition:</b> <a href="Sopa__Letras_8h_source.html#l00047">Sopa_Letras.h:47</a></div></div>
+<div class="ttc" id="Matriz__Dispersa_8h_html"><div class="ttname"><a href="Matriz__Dispersa_8h.html">Matriz_Dispersa.h</a></div><div class="ttdoc">Fichero de cabecera del TDA Matriz Dispersa. </div></div>
+<div class="ttc" id="classSopa__Letras_html_a10161c80a9c087c8d9ee556dd9e402e2"><div class="ttname"><a href="classSopa__Letras.html#a10161c80a9c087c8d9ee556dd9e402e2">Sopa_Letras::acertadas</a></div><div class="ttdeci">Matriz_Dispersa acertadas</div><div class="ttdef"><b>Definition:</b> <a href="Sopa__Letras_8h_source.html#l00050">Sopa_Letras.h:50</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><b>Sopa_Letras.h</b></li>
+    <li class="footer">Generado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>
